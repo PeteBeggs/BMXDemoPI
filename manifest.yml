@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BMXDemoPI
+  host: BMXDemoPI
+  disk_quota: 1024M
+  services:
+  - BMXDemoPI-personality_insights
+  - Auto-Scaling-ux
+  - Availability Monitoring-ca
